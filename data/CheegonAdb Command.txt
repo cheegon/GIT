@@ -1,0 +1,43 @@
+------------------------adb command-------------------
+进入手机目录
+	adb shell  
+查找内部文件
+	adb shell
+	cd /data/data/包名/
+查找sdcard文件
+	cd /mnt/sdcard/
+显示联系人数据库内容
+	adb shell
+	cd /data/data/com.android.providers.contacts/databases
+	sqlite3 contacts2.db	//用sqlite3打开contacts2.db数据库
+	.table
+	select * from 表名
+安装文件,从电脑的d盘中,安装a.apk到手机中
+	adb install d:\a.apk 	
+开启adb服务
+	adb start-server
+杀死adb服务
+	adb kill-server  
+查看设备
+	adb device
+退出shell模式
+	ctrl+c
+重启设备
+	adb reboot
+查看所有应用包名
+	adb shell pm list packages
+推内容从电脑-->手机
+	adb push e:text.txt /sdcard/
+推内容从手机-->电脑
+	adb pull /sdcard/1.txt d:/file
+	adb pull /data/data/com.android.providers.contacts/databases/contacts2.db d:/
+多设备选择操作
+	adb -s
+查看系统日志
+	adb logcat
+查看设备的相关信息(imie,sn,固件信息,机型)
+	adb shell
+	getprop
+
+从sqlite中退出
+.quit

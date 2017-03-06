@@ -1,0 +1,62 @@
+			Android Studion 快捷鍵映射
+
+------------------------------------有修改部分----------------------------------------------
+【F1】|【Ctrl+Q】		快速查看解釋(修改quick documenttion)
+【Ctrl+1】|【Alt+Entry】	導入包,自動修正【兼容Eclipse】(修改show intention actions)
+【Control + Alt + O】 		導入包
+【Shift+Entry】			任意位置向下創建新的一行(修改complete current statement)
+【Alt+/】			代碼提示【原先的跟輸入法衝突&&兼容Eclipse】(修改basic)
+【Alt+Up】			代碼向上移動【兼容Eclipse】(修改move statement up)
+【Alt+Down】			代碼向下移動【兼容Eclipse】(修改move statement down)
+【Ctrl+Alt+Down】		代碼向下複製【兼容Eclipse】(修改duplicate lines)
+【Ctrl+D】			刪除一行【兼容Eclipse】(修改delete line)
+【Ctrl+~】|【Ctrl+Alt+F】	提取成員變量(修改field)
+【Shift+Alt+M】			提取方法(修改method)
+【Alt+減號】			前一個方法(修改previous method)
+【Alt+加號】			后一個方法(修改next method)
+
+----------------------------------無修改部分---------------------------------------------
+【Ctrl + Left / Right】 	键改变字符选择区域
+【Ctrl+Alt+V】			提取局部變量
+【Ctrl+X】			剪切一行
+【Ctrl+/】			行注釋
+【Ctrl+Shift+/】		代碼段注釋
+【Home】			跳转到行首
+【End】				跳转到行尾
+【Alt+Insert】			生成代碼(如get,set,構造函數等)
+【Ctrl+R】			替換文本
+【Ctrl+F】			查找文本
+【Ctrl+Alt+L】			格式化代碼
+【Ctrl+Shift+Space】		自動補全代碼
+【Ctrl+Alt+Space】		自動提示
+【Ctrl+H】			查看類的繼承關係
+【Shift+F6】			重構.重命名
+【Ctrl+O】			重寫或事項父類
+【Ctrl+P】			可以顯示參數信息
+【Ctrl+Alt+T】			try catch
+
+【Alt+選中列】			列編輯
+【Ctrl+Shift+U】		大小寫轉換
+【Alt+F7】			查看在哪裡使用過該類
+【Ctrl+N】			查找類
+【Ctrl+Shift+N】		查找文件
+【Ctrl+Alt+O】			優化導入的類和包
+【Alt+Shift+C】			最近更改的代碼
+【Ctrl+Shift+Alt+N】		查找類中的方法或變量
+【Alt+Shift+C】			對比最近修改的代碼
+【F2】				高亮錯誤或者警告快速定位
+【Ctrl+Q】			顯示注釋文檔
+【Alt+1】			快速打開或隱藏工程面板
+【Ctrl+E】			最近打開的文件
+【Ctrl+J】			自動代碼
+【Alt+F1】			查找代碼所在位置
+【Ctrl+Alt+Left/Right】		返回至上次瀏覽的位置
+【Alt+Left/Right】		切換代碼視圖
+【Ctrl+Shift+F7】		高亮顯示該文本,按esc高亮消失
+【Alt+F3】			逐個向下查找相同的文本
+【Ctrl+E】			顯示最近編輯的文件列表
+【Ctrl+[]】			可以跳到大括號的開頭結尾
+【Ctrl+Shift+Backspace】	可以跳轉到三次編輯的地方
+【Ctrl+f7】			當前元素在當前文件中的應用
+【Shift+Home】			从当前位置选中到行首
+【Ctrl+F4】			关闭正在编辑的文件 
