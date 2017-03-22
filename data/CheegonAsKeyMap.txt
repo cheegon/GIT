@@ -13,7 +13,6 @@
 【Shift+Alt+M】			提取方法(修改method)
 【Alt+減號】			前一個方法(修改previous method)
 【Alt+加號】			后一個方法(修改next method)
-【Ctrl+2】			next highlighted error
 【F2】|【Shift+6】		重命名rename
 【F2】				重命名rename file
 【Ctrl+2】			修复注解fix document
